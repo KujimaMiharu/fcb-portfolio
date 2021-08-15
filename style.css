@@ -1,0 +1,73 @@
+/*
+	ctrl+shift+/ to create CSS comment.
+	
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
+*/
+
+* {
+
+	/*Default Font*/
+	font-family: 'Roboto', sans-serif;
+}
+
+h1,h2 {
+
+	font-family: 'Montserrat', sans-serif;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+}
+
+/*to target the element with id, typw "#"+name of element*/
+#landing {
+
+	height: 80vh;
+	/*center the content, (image, heading and paragraph) horizontally and vertically using flexbox*/
+	display: flex;
+	flex-direction: column;
+	align-items: center; /*items centered horizontally*/
+	justify-content: center; /*items centered horizontally*/
+
+}
+
+#gallery {
+
+	height: 75vh;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	border-radius: 6px;
+
+}
+
+ul {
+
+	list-style: none;
+	padding: 0;
+}
+
+h2 {
+
+	color: #007bff;
+}
+
+/*to target a class, type "."+name of element*/
+.tools {
+
+	padding: 25px; /*space inside the element*/
+	border: 5px solid #f2f2f2;
+	margin: 20px; /*space outside the element*/
+	height: 200px;
+	width: 75%;
+}
+
+html {
+
+	scroll-behavior: smooth;
+}
